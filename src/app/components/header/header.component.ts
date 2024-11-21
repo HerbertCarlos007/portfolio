@@ -11,6 +11,4 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 })
 export class HeaderComponent {
   faBars = faBars
-
-  imageLogo = 'assets/logo.png';
 }
