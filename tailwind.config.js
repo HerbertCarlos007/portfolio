@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       colors: {
         'primary': '#f0f8ff',
-        'secondary': '#e3e4e6'
+        'secondary': '#e3e4e6',
+        'tw-bg-opacity': 'rgb(255 255 255)'
       }
     },
   },
