@@ -1,5 +1,6 @@
 <div >
-  <app-header></app-header>
+  <app-header [toggleSideBar]="toggleSideBar.bind(this)"></app-header>
+  <app-sidebar [showSideBar]="showSideBar" [toggleSideBar]="toggleSideBar.bind(this)"></app-sidebar>
   <app-about-me></app-about-me>
   <app-skills></app-skills>
   <app-projects></app-projects>
